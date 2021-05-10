@@ -83,7 +83,7 @@
   $.fn.onepage_scroll = function(options){
     var settings = $.extend({}, defaults, options),
         el = $(this),
-        sections = $(settings.sectionContainer)
+        sections = $(settings.sectionContainer),
         total = sections.length,
         status = "off",
         topPos = 0,
